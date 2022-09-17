@@ -1,0 +1,34 @@
+body{
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+.container{
+    background-image: url('https://pyxis.nymag.com/v1/imgs/3f7/417/884a6987f4bebbcee3adcbdbf7453073d7-itaewon-class.2x.rsocial.w600.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+
+}
+.heading{
+    padding-top: 250px;
+    font-size: 20px;
+}
+.row{
+    display:flex;
+    overflow-y: hidden;
+}
+.row > img {
+    margin: 8px;
+    transition: transform 0.4s;
+  }
+  
+  .row > img:hover {
+    transform: scale(1.1);
+  }
+::-webkit-scrollbar {
+    display: none;
+  }
+
+
+  
